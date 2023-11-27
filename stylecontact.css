@@ -1,0 +1,23 @@
+#formContact{
+    width: fit-content;
+}
+#formContact > div {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+}
+#formContact > div > label{
+width: 80px;
+}
+#formContact > div > input{
+padding: 10px 5px;
+min-width: 360px;
+}
+#formContact > div.submitBtn{
+    text-align: center;
+}
+#formContact>div >input[type='submit']{
+    min-width: auto;
+    padding: 5px;
+}

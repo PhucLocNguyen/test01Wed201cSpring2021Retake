@@ -1,0 +1,26 @@
+
+.carouselFormat .item img{
+    min-height: 360px;
+    object-fit: cover;
+    
+}
+.productShow >div{
+    text-align: center;
+}
+.productShow > div >h2{
+    font-size: 20px ;
+    color: blue;
+}
+.productShow > div >p{
+    color: red;
+    font-size: 18px;
+}
+.footer{
+    padding: 5px;
+    background-color: rgb(223, 221, 221);
+}
+@media (min-width:768px){
+    .carouselFormat .item img{
+height:550px
+    }
+}
